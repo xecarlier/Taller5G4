@@ -9,7 +9,11 @@ public class Doctor extends Persona {
 	protected String especialidad;
 	protected Secretaria secretaria;
 	protected Collection citasPendientes;
-		
+	
+	public Doctor(Secretaria secretaria) {
+		this.secretaria = secretaria;
+	}
+	
 	public void recetar() {
 		// TODO - implement Doctor.recetar
 		throw new UnsupportedOperationException();
