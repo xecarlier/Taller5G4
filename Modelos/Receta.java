@@ -11,5 +11,8 @@ public class Receta {
 		planNut = new PlanNutricional();
 		medicamentos = new Collection<>();
 	}
+	
+	
+	
 
 }
